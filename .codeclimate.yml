@@ -1,0 +1,22 @@
+---
+engines:
+  fixme:
+    enabled: true
+  tslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  git-legal:
+    enabled: true
+  nodesecurity:
+    enabled: true
+ratings:
+  paths: []
+exclude_paths:
+- node_modules/
